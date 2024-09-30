@@ -1,4 +1,1 @@
-"# jarvis" 
-"# 100x" 
-"# 100x" 
-"# 100x" 
+# Pokemon finder 
