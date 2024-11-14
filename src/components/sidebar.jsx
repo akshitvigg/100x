@@ -15,7 +15,7 @@ export const SideBar = () => {
   return (
     <div className="flex relative ">
       <div
-        className={`  ${
+        className={` transition-all duration-500  ${
           open ? "sm:w-64" : "sm:w-16"
         } sm:shadow  sm:bg-white sm:h-screen  ${
           open ? "w-64 bg-white" : "bg-slate-100  w-4"
