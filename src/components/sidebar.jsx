@@ -104,7 +104,7 @@ export const SideBar = () => {
                 </div>
                 <div className=" border-b border-gray-200 w-full">
                   <div className="flex ml-2">
-                    <p className="mr-2 text-gray-500">Live</p>
+                    <p className="mr-2 text-gray-500">Upcoming</p>
                     <ImageComp link={liveb} size={20} />
                   </div>
                   <p className=" ml-2 text-lg font-bold pt-2">
@@ -123,7 +123,7 @@ export const SideBar = () => {
                 </div>
                 <div className=" border-b border-gray-200 w-full">
                   <div className="flex ml-2">
-                    <p className="mr-2 text-gray-500">Live</p>
+                    <p className="mr-2 text-gray-500">Upcoming</p>
                     <ImageComp link={liveb} size={20} />
                   </div>
                   <p className=" ml-2 text-lg font-bold pt-2">
@@ -152,7 +152,7 @@ export const SideBar = () => {
                 <img src={video} width={60} style={{ padding: 10 }} />
               </div>
             </div>
-            <p className="  ml-8 text-sm font-bold">Open Recording</p>
+            <p className="  ml-8 text-sm font-bold">Upcoming</p>
           </div>
         </div>
       </div>
