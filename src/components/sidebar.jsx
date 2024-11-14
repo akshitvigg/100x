@@ -152,7 +152,7 @@ export const SideBar = () => {
                 <img src={video} width={60} style={{ padding: 10 }} />
               </div>
             </div>
-            <p className="  ml-8 text-sm font-bold">Upcoming</p>
+            <p className="  ml-8 text-sm font-bold">Open Recordings</p>
           </div>
         </div>
       </div>
