@@ -24,7 +24,9 @@ export const SideBar = () => {
         className={` transition-all duration-500  ${
           open ? "sm:w-64" : "sm:w-16"
         } sm:shadow-xl  sm:bg-white sm:h-screen  ${
-          open ? "w-64 bg-white" : "bg-slate-100  w-4"
+          open
+            ? "w-64 fixed top-0 h-screen left-0 bg-white"
+            : "bg-slate-100  w-4"
         }`}
       >
         {open ? (
