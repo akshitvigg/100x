@@ -83,7 +83,7 @@ export const SideBar = () => {
         ) : (
           <div className=" transition-all duration-500 flex justify-between w-full mr-3 mt-6 hover:bg-slate-300">
             <img
-              className={`m-2 transition-all duratio-600 ${
+              className={`m-2 transition-all duration-600 ${
                 open ? "mr - 3" : "ml-4 "
               } `}
               src={webinar}
